@@ -1,4 +1,4 @@
-# :bug: [NOME-DA-BRANCH] BUGFIX: Impacto principal
+# 🐛 [NOME-DA-BRANCH] BUGFIX: Impacto principal
 
 ## Resumo
 
@@ -15,8 +15,8 @@
 
 ### 📁 Arquivos Alterados
 
-*Packages (Componentes e Tipos):*
+_Packages (Componentes e Tipos):_
 [Lista de arquivos alterados]
 
-*Apps:*
+_Apps:_
 [Lista de arquivos alterados]

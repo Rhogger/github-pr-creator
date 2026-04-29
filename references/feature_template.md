@@ -1,4 +1,4 @@
-# :sparkles: [NOME-DA-BRANCH] FEATURE: Impacto principal
+# ✨ [NOME-DA-BRANCH] FEATURE: Impacto principal
 
 ## 📝 Descrição
 

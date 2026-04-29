@@ -34,14 +34,14 @@ Para cada hash identificada:
 
 ### 3. Análise e Decisão (Software Architect)
 Digerir os dados para definir a estratégia:
-- **Tipo de PR**: Decida entre `FEATURE` (lógica nova), `BUGFIX` (correções), `REFACTOR` (limpeza/organização), `HOTFIX` (correções críticas), `TESTS` (testes), `SECURITY` (segurança), `BUILD` (build/CI), `CHORE` (manutenção/diversos) ou `WIP` (trabalho em progresso).
+- **Tipo de PR**: Decida entre `FEATURE` (lógica nova), `BUGFIX` (correções), `REFACTOR` (limpeza/organização), `HOTFIX` (correções críticas), `TESTS` (testes), `SECURITY` (segurança), `BUILD` (build/CI), `CHORE` (manutenção/diversos), `DOCS` (documentação), `PERF` (performance) ou `WIP` (trabalho em progresso).
 - **Sumarização**: Cruze mensagens de commit com o código para entender o "Porquê". Gere um resumo técnico em tópicos.
 - **Título**: O título do PR **DEVE** seguir rigorosamente o padrão: `[NOME-DA-BRANCH] TIPO: Impacto principal`.
 - **Testes**: Infira passos de teste lógicos baseados na alteração realizada.
 
 ### 4. Publicação (Technical Writer)
 Gere o conteúdo final e execute:
-- **Template**: Busque o template correspondente em `references/` (`feature_template.md`, `bugfix_template.md` ou `refactor_template.md`), relativo à raiz desta skill. Use-o como base para preencher as informações coletadas. Se o tipo for um dos novos (HOTFIX, CHORE, WIP, etc.), use o template que mais se aproxima ou o de `feature_template.md` como base.
+- **Template**: Busque o template correspondente em `references/` (`feature_template.md`, `bugfix_template.md`, `refactor_template.md`, `chore_template.md`, `wip_template.md`, `security_template.md`, `hotfix_template.md`, `docs_template.md`, `tests_template.md`, `perf_template.md` ou `build_template.md`), relativo à raiz desta skill. Use-o como base para preencher as informações coletadas.
 - **CLI**: Use `gh pr create` para abrir o PR, garantindo que o título siga o padrão `[NOME-DA-BRANCH] TIPO: Impacto principal`.
 - **RESTRIÇÃO**: NÃO faça `git commit`, `git push` ou crie arquivos de mensagem físicos (como PR_MESSAGE.md), a menos que solicitado. O PR deve ser aberto diretamente via CLI.
 

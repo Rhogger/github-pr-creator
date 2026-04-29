@@ -1,4 +1,4 @@
-# :recycle: [NOME-DA-BRANCH] REFACTOR: Impacto principal
+# ♻️ [NOME-DA-BRANCH] REFACTOR: Impacto principal
 
 ## Resumo
 
