@@ -1,4 +1,4 @@
-# ♻️ [ID-TICKET] — Refatoração e Melhorias
+# :recycle: [NOME-DA-BRANCH] REFACTOR: Impacto principal
 
 ## Resumo
 

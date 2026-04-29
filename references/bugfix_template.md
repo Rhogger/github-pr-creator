@@ -1,4 +1,4 @@
-# 🐞 [ID-TICKET] — Bugfix e Otimizações
+# :bug: [NOME-DA-BRANCH] BUGFIX: Impacto principal
 
 ## Resumo
 

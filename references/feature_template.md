@@ -1,4 +1,4 @@
-# :sparkles: [ID-TICKET] — [Título Conciso da Feature]
+# :sparkles: [NOME-DA-BRANCH] FEATURE: Impacto principal
 
 ## 📝 Descrição
 
